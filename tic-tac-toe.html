@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tic-tac-toe.css">
+   <!-- <script src="tic-tac-toe.js"></script>  This code will link it to the .js file --> 
+</head>
+
+<h1>Tic Tac Toe</h1>
+ 
+<body>
+ <table> 
+  <tr> 
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+   </tr>
+
+ </table>
+
+    <script>
+
+let clickCount = 0;
+const cells = document.querySelectorAll('table tr td'); 
+cells.forEach(cell => {
+   cell.addEventListener('click', handleClick) 
+})
+
+function handleClick(event) {
+const cell = event.target;
+if (event.target.textContent === "") {
+    event.target.textContent = 'X'
+}
+    clickCount++;
+if (clickCount % 2 === 1) {
+    cell.textContent = 'X';
+} else {cell.textContent = 'O'};
+} 
+
+    </script>
+
+
+</body>
+</html>
