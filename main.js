@@ -7,10 +7,9 @@ cells.forEach(cell => {
 function handleClick(event) {
 const cell = event.target;
 if (event.target.textContent === "") {
-    event.target.textContent = 'X'
-}
     clickCount++;
-if (clickCount % 2 === 1) {
-    cell.textContent = 'X';
-} else {cell.textContent = 'O'};
+    if  (clickCount % 2 === 1) {
+        cell.textContent = 'X';
+    }   else {cell.textContent = 'O'};
+}
 } 
