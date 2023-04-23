@@ -30,7 +30,16 @@ if (event.target.textContent === "") {   ////Checks if box is empty
     if (document.querySelectorAll('table tr td')[0].textContent === "X" && 
     document.querySelectorAll('table tr td')[1].textContent === "X" && 
     document.querySelectorAll('table tr td')[2].textContent === "X") { 
-      document.querySelector(".messageboard").textContent = "X Wins! 0 1 2" 
+    document.querySelector(".messageboard").textContent = "X Wins! 0 1 2" 
+    
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent === " "
+    }
+
+
+      } 
 }       // 3 4 5
   else if (document.querySelectorAll('table tr td')[3].textContent === "X" &&
   document.querySelectorAll('table tr td')[4].textContent === "X" && 
