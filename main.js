@@ -35,88 +35,191 @@ if (event.target.textContent === "") {   ////Checks if box is empty
     for (var i = 0; i < cells.length; i++) {
       console.log(cells[i].textContent === "")
     if (cells[i].textContent === "") {
-      cells[i].textContent === " "
+      cells[i].textContent = " "
     }
-
-
-      } 
+  } 
 }       // 3 4 5
   else if (document.querySelectorAll('table tr td')[3].textContent === "X" &&
   document.querySelectorAll('table tr td')[4].textContent === "X" && 
   document.querySelectorAll('table tr td')[5].textContent === "X") {
-    document.querySelector(".messageboard").textContent = "X Wins! 3 4 5"
+  document.querySelector(".messageboard").textContent = "X Wins! 3 4 5"
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }   
 }       // 6 7 8
   else if (document.querySelectorAll('table tr td')[6].textContent === "X" && 
   document.querySelectorAll('table tr td')[7].textContent === "X" &&
   document.querySelectorAll('table tr td')[8].textContent === "X") {
-    document.querySelector(".messageboard").textContent = "X Wins! 6 7 8"
-  }     // 0 3 6
+  document.querySelector(".messageboard").textContent = "X Wins! 6 7 8"
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
+}     // 0 3 6
   else if (document.querySelectorAll('table tr td')[0].textContent === "X" &&
   document.querySelectorAll('table tr td')[3].textContent === "X" &&  
   document.querySelectorAll('table tr td')[6].textContent === "X") { 
-    document.querySelector(".messageboard").textContent = "X Wins! 0 3 6"
+  document.querySelector(".messageboard").textContent = "X Wins! 0 3 6" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
   }
+}
         // 1 4 7
   else if (document.querySelectorAll('table tr td')[1].textContent === "X" &&
     document.querySelectorAll('table tr td')[4].textContent === "X" && 
     document.querySelectorAll('table tr td')[7].textContent === "X") {
-      document.querySelector(".messageboard").textContent = "X Wins! 1 4 7"
+    document.querySelector(".messageboard").textContent = "X Wins! 1 4 7"
+
+      for (var i = 0; i < cells.length; i++) {
+        console.log(cells[i].textContent === "")
+      if (cells[i].textContent === "") {
+        cells[i].textContent = " "
+      }
+    }
   }    // 2 5 8
   else if (document.querySelectorAll('table tr td')[2].textContent === "X" && 
   document.querySelectorAll('table tr td')[5].textContent === "X" && 
   document.querySelectorAll('table tr td')[8].textContent === "X") {
-    document.querySelector(".messageboard").textContent = "X Wins! 2 5 8"
-  }    //0 4 8
+  document.querySelector(".messageboard").textContent = "X Wins! 2 5 8"
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
+}    //0 4 8
   else if (document.querySelectorAll('table tr td')[0].textContent === "X" && 
   document.querySelectorAll('table tr td')[4].textContent === "X" && 
   document.querySelectorAll('table tr td')[8].textContent === "X") {
-    document.querySelector(".messageboard").textContent = "X Wins 0 4 8!"
-  } 
+  document.querySelector(".messageboard").textContent = "X Wins 0 4 8!" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
+} 
        //2 4 6
   else if (document.querySelectorAll('table tr td')[2].textContent === "X" && 
   document.querySelectorAll('table tr td')[4].textContent === "X" && 
   document.querySelectorAll('table tr td')[6].textContent === "X") { 
-    document.querySelector(".messageboard").textContent = "X Wins! 2 4 6"
-  } //////////////// O
+  document.querySelector(".messageboard").textContent = "X Wins! 2 4 6"  
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
+} //////////////// O
   else if (document.querySelectorAll('table tr td')[0].textContent === "O" && 
   document.querySelectorAll('table tr td')[1].textContent === "O" && 
   document.querySelectorAll('table tr td')[2].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 0 1 2"
+  document.querySelector(".messageboard").textContent = "O Wins! 0 1 2" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
   }
+}
   else if (document.querySelectorAll('table tr td')[3].textContent === "O" &&
   document.querySelectorAll('table tr td')[4].textContent === "O" && 
   document.querySelectorAll('table tr td')[5].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 3 4 5"
+  document.querySelector(".messageboard").textContent = "O Wins! 3 4 5" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
   }
+}
   else if (document.querySelectorAll('table tr td')[6].textContent === "O" &&
   document.querySelectorAll('table tr td')[7].textContent === "O" && 
   document.querySelectorAll('table tr td')[8].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 6 7 8"
+  document.querySelector(".messageboard").textContent = "O Wins! 6 7 8" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
   }
+}
   else if (document.querySelectorAll('table tr td')[0].textContent === "O" &&
   document.querySelectorAll('table tr td')[3].textContent === "O" && 
   document.querySelectorAll('table tr td')[6].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 0 3 6"
+  document.querySelector(".messageboard").textContent = "O Wins! 0 3 6" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
 } 
   else if (document.querySelectorAll('table tr td')[1].textContent === "O" &&
   document.querySelectorAll('table tr td')[4].textContent === "O" && 
   document.querySelectorAll('table tr td')[7].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 1 4 7" 
+  document.querySelector(".messageboard").textContent = "O Wins! 1 4 7" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
 }
   else if (document.querySelectorAll('table tr td')[2].textContent === "O" &&
   document.querySelectorAll('table tr td')[5].textContent === "O" && 
   document.querySelectorAll('table tr td')[8].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 2 5 8"
+  document.querySelector(".messageboard").textContent = "O Wins! 2 5 8" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  } 
 }
   else if (document.querySelectorAll('table tr td')[0].textContent === "O" &&
   document.querySelectorAll('table tr td')[4].textContent === "O" && 
   document.querySelectorAll('table tr td')[8].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 0 4 8"
+  document.querySelector(".messageboard").textContent = "O Wins! 0 4 8" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
 }
   else if (document.querySelectorAll('table tr td')[2].textContent === "O" &&
   document.querySelectorAll('table tr td')[4].textContent === "O" && 
   document.querySelectorAll('table tr td')[6].textContent === "O") {
-    document.querySelector(".messageboard").textContent = "O Wins! 2 4 6" 
+  document.querySelector(".messageboard").textContent = "O Wins! 2 4 6" 
+
+    for (var i = 0; i < cells.length; i++) {
+      console.log(cells[i].textContent === "")
+    if (cells[i].textContent === "") {
+      cells[i].textContent = " "
+    }
+  }
 
     }  
 }
