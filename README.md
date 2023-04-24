@@ -23,3 +23,6 @@ Some things I can add down the line to improve this include:
 A restart button - So I don't have to constantly click refresh
 An extended gameboard size - Having 9 squares means it's very easy for players to constantly get a stalemate scenario as there isn't enough combination variables for most people to have to build a memory and skill towards. 
 A counter/number to keep track of who wins - I Could add +1 point to the winner of each game and a + 0 and make a best out of 3 or best out of 5
+
+This game can be accessed via the link below
+https://adrian484.github.io/Tic-Tac-Toe/
